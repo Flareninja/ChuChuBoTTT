@@ -1,9 +1,9 @@
 //place the URL of the showdown server you are aiming to connect to
-exports.url = 'play.pokemonshowdown.com';
+exports.url = 'galaxy.psim.us';
 
 // The nick and password to log in with
-var nick = exports.nick = ''
-exports.pass = '';
+var nick = exports.nick = 'UniBot'
+exports.pass = 'martina';
 
 // A list of private rooms that the bot will not leak through the seen command
 exports.privaterooms = [];
@@ -13,7 +13,7 @@ exports.privaterooms = [];
 // Showdown itself.
 // Using only alphanumeric characters and spaces is not allowed.
 // Add more command characters 
-exports.commandcharacter = ['+', '.'];
+exports.commandcharacter = ['+'];
 
 // The default rank is the minimum rank that can use a command in a room when
 // no rank is specified in settings.json
@@ -76,4 +76,4 @@ exports.avatar = null;
 
 // When you pm the bot but don't use a command, it replies you this message.
 // Example: "Hi, I'm a bot. Use .guide to view a command guide"
-exports.pmmessage = "";
+exports.pmmessage = "Sono un Bot :(";
