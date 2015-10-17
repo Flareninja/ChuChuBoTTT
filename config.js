@@ -2,7 +2,7 @@
 exports.url = 'galaxy.psim.us';
 
 // The nick and password to log in with
-var nick = exports.nick = 'Planet Bot'
+var nick = exports.nick = 'Oxygen Bot'
 exports.pass = 'martina';
 
 // A list of private rooms that the bot will not leak through the seen command
